@@ -62,7 +62,10 @@ p {
 
 .navigation__list {
   display: flex;
+  gap: 2rem;
   list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
 .navigation__item {
@@ -120,19 +123,44 @@ p {
 /* hero */
 
 .hero {
-  background-image: url("header-bike.jpg");
+  background-image: url("/images/header-bike.png");
   background-color: var(--grey-light);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 280px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: left;
+  padding: 10px;
+  align-items: flex-start;
+  font-family: sans-serif;
+ 
 }
 
 .hero h1 {
   margin-bottom: 1rem;
   font-size: 2.5rem;
+  font-weight: bold;
+
 }
 
 .hero p {
   font-size: 1.2rem;
   margin-bottom: 2rem;
+  text-align: center;
 }
+
+.btn:hover{
+  background-color: transparent;
+  color: #fff;
+  border: 1px solid #fff;
+  }
+
+
 
 
 /* Headings */
