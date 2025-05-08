@@ -24,16 +24,6 @@ button {
   font-size: 1rem;
 }
 
-.header-btn {
-  color: #fff;
-  font-weight: 501;
-  background-color: #c05326;
-  border-radius: 4px;
-  border: none;
-  padding: 5.5px 10px;
-  font-size: 16px;
-}
-
 .header-btn:hover {
   background-color: #a94320;
 
@@ -112,7 +102,45 @@ p {
 
 /* Buttons */
 
-  /* INSERT BUTTON STYLES HERE */
+.header-btn {
+  color: #fff;
+  font-weight: 501;
+  background-color: #c05326;
+  border-radius: 4px;
+  border: none;
+  padding: 5.5px 10px;
+  font-size: 16px;
+}
+
+.btn-Donate {
+  margin-left: 2rem;
+  color: #fff;
+  font-weight: 600;
+  background-color: #c05326;
+  border-radius: 4%;
+  padding: 7px 14px;
+  font-size: 15px;
+  border: none;
+  margin-right: 0;
+}
+
+.btn-Donate:hover {
+  background-color: #a94320;
+}
+
+.btn-Volunteer {
+  color: #a94320;
+  font-weight: 600;
+  background-color: #f7eae4;
+  border-radius: 4%;
+  padding: 7px 10px;
+  font-size: 15px;
+  border: none;
+}
+
+.btn-Volunteer:hover {
+  background-color: #fff;
+}
 
 
 /* Content */
@@ -169,36 +197,6 @@ p {
   margin-bottom: 2rem;
   margin-left: 2rem;
   text-align: center;
-}
-
-.btn-Donate {
-  margin-left: 2rem;
-  color: #fff;
-  font-weight: 600;
-    background-color: #c05326;
-    border-radius: 4%;
-    padding: 7px 14px;
-    font-size: 15px;
-    border: none;
-    margin-right: 0;
-  }
-  
- .btn-Donate:hover {
-   background-color: #a94320;
- }
-
-.btn-Volunteer {
-  color: #a94320;
-  font-weight: 600;
-  background-color: #f7eae4;
-  border-radius: 4%;
-  padding: 7px 10px;
-  font-size: 15px;
-  border: none;
-}
-
-.btn-Volunteer:hover {
-  background-color: #fff;
 }
 
 /* Headings */
