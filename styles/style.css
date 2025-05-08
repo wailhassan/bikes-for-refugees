@@ -2,6 +2,7 @@
  *
  * Module: HTML/CSS
  * Lesson: 1
+ * Name: Wail Hassan
  * 
  */
 
@@ -229,11 +230,11 @@ p {
 .article-container {
   display: flex;
   gap: 10px;
-    flex-wrap: wrap;
+  flex-wrap: wrap;
   }
   
   .article {
-    flex: 2;
+    flex: 1;
     border: 1px solid #ccc;
     border-radius: 6px;
     padding: 20px;
@@ -247,6 +248,7 @@ p {
     font-weight: bold;
     color: #1c1b1b;
   font-size: 1rem;
+  padding-bottom: 1px;
 }
 
 .article__title-link {
@@ -254,18 +256,36 @@ p {
   color: #a53606;
 }
 
+.article__title-link:hover {
+
+  text-decoration: underline;
+  text-decoration-color: #a53606;
+}
 .article__summary {
   margin: 0.25rem 0 0;
-    font-size: 0.9rem;
+    font-size: 1rem;
     color: #1c1b1b;
+      padding-bottom: 1rem;
+      }
+      
+      .article-sidebar {
+        display: flex;
+        align-items: flex-start;
+        gap: 15px;
+        flex: 1;
+        border: 1px solid #ccc;
+        border-radius: 6px;
+        padding: 17px;
+        margin-bottom: 10px;
 }
 
 .article__thumbnail {
+
   width: 80px;
   height: 80px;
   object-fit: contain;
   border-radius: 4px;
-  flex-shrink: 0;
+  flex-shrink: 1;
 }
 
 .article__read-more {
@@ -281,6 +301,8 @@ p {
 
 .article__read-more a:hover,
 .article__read-more a:focus {
+text-decoration: underline;
+  color: #a53606;
   text-decoration: underline;
 }
 
@@ -291,6 +313,7 @@ p {
 
 .facebook-link {
   color: var(--orange-dark);
+  text-align: right;
 }
 
 /* Sidebar */
@@ -310,7 +333,7 @@ p {
 .footer__content {
   border-top: 2px solid var(--orange-light);
   padding-top: 2rem;
-  padding-bottom: 2rem;
+    padding-bottom: 1rem;
 }
 
 .footer p {
