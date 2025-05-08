@@ -52,7 +52,7 @@ p {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  height: 5rem;
+  height: 4rem;
   margin-bottom: 1rem;
   padding-top: 1rem;
 }
@@ -185,17 +185,17 @@ p {
 }
 
 .hero h1 {
-  margin-bottom: 1.5rem;
-    margin-left: 2rem;
-  font-size: 2.5rem;
+  padding-bottom: 1rem;
+    padding-left: 2rem;
+    font-size: 3rem;
   font-weight: bold;
-
 }
 
+
 .hero p {
-  font-size: 1.2rem;
-  margin-bottom: 2rem;
-  margin-left: 2rem;
+  font-size: 1.1rem;
+    padding-bottom: 2rem;
+    padding-left: 2rem;
   text-align: center;
 }
 
@@ -209,7 +209,7 @@ p {
   font-size: 1rem;
   font-weight: 600;
   text-transform: uppercase;
-  margin-top: 40px;
+  padding-top: 2rem;
 }
 
 .heading-underline:before {
@@ -235,8 +235,10 @@ p {
     border-radius: 3%;
     padding: 0.5rem;
     margin-bottom: 1rem;
+  
     }
 
+    
 .article__title {
   margin: 0;
     font-weight: bold;
